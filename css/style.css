@@ -1,0 +1,196 @@
+:root {
+  --hover-color: #404bbf;
+  --main-brandcolor: #2e2f42;
+  --main-backgroundcolor: #f4f4fd;
+  --logo-buttonscolor: #4d5ae5;
+  --main-white: #ffffff;
+  --main-textcolor: #434455;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--main-white);
+  color: var(--main-textcolor);
+}
+
+.logo-web {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-buttonscolor);
+}
+
+.link {
+  text-decoration: none;
+}
+.logo-studio {
+  color: var(--main-brandcolor);
+}
+.logo-studio-footer {
+  color: var(--main-backgroundcolor);
+}
+
+.list {
+  list-style: none;
+}
+.list .nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-brandcolor);
+}
+.list .nav-link:hover,
+.list .nav-link:focus {
+  color: var(--hover-color);
+}
+.list .nav-link:active {
+  color: var(--hover-color);
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.list .contacts-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-textcolor);
+}
+.list .contacts-link:hover,
+.list .contacts-link:focus {
+  color: var(--hover-color);
+}
+
+.main-header {
+  background-color: var(--main-brandcolor);
+}
+
+.main-slogan {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--main-white);
+}
+
+.order-button {
+  font-family: "Roboto", sans-serif;
+  background: var(--logo-buttonscolor);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--main-white);
+  cursor: pointer;
+}
+.order-button:hover,
+.order-button:focus {
+  background: var(--hover-color);
+}
+
+.list .advantages-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-brandcolor);
+}
+
+.list .advantages-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.second-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-brandcolor);
+}
+
+.about-team {
+  background-color: var(--main-backgroundcolor);
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--main-brandcolor);
+}
+
+.team-members {
+  background-color: var(--main-white);
+}
+
+.list .members-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--main-brandcolor);
+}
+
+.list .members-position {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.footer-area {
+  background-color: var(--main-brandcolor);
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-backgroundcolor);
+}
+
+.list .button-item {
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  background-color: var(--main-backgroundcolor);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--logo-buttonscolor);
+}
+
+.list .button-item:hover,
+.list .button-item:focus {
+  background-color: var(--hover-color);
+  color: var(--main-white);
+}
+
+.list .gallery-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-brandcolor);
+}
+.list .gallery-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-textcolor);
+}
