@@ -7,6 +7,7 @@
   --main-textcolor: #434455;
   --gallery-button-border: #e7e9fc;
   --gallery-item-border: #e7e9fc;
+  --header-border-bottom: #e7e9fc;
 }
 
 /**
@@ -74,7 +75,7 @@ body {
 
 .header {
   background-color: var(--main-white);
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--header-border-bottom);
 }
 
 .header-top {
