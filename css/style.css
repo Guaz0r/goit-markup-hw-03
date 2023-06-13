@@ -7,11 +7,55 @@
   --main-textcolor: #434455;
 }
 
+/**
+  |============================
+  | Global 
+  |============================
+*/
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  margin: auto 0;
+  width: 1158px;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--main-white);
   color: var(--main-textcolor);
 }
+
+/**
+  |============================
+  Header
+  |============================
+*/
 
 .logo-web {
   font-family: "Raleway", sans-serif;
@@ -21,27 +65,42 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-buttonscolor);
+  padding: 24px 0;
 }
 
-.link {
-  text-decoration: none;
+.header {
+  background-color: var(--main-white);
+  border-bottom: 1px solid #e7e9fc;
 }
+
+.header-top {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  gap: 40px;
+  margin-left: 76px;
+  width: 261px;
+}
+
 .logo-studio {
   color: var(--main-brandcolor);
 }
-.logo-studio-footer {
-  color: var(--main-backgroundcolor);
-}
 
-.list {
-  list-style: none;
-}
 .list .nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-brandcolor);
+  padding: 24px 0;
 }
 .list .nav-link:hover,
 .list .nav-link:focus {
@@ -53,6 +112,12 @@ body {
 
 .contacts {
   font-style: normal;
+  margin-left: auto;
+}
+
+.contacts .list {
+  display: flex;
+  gap: 40px;
 }
 
 .list .contacts-link {
@@ -66,7 +131,13 @@ body {
   color: var(--hover-color);
 }
 
-.main-header {
+/**
+  |============================
+  Hero section
+  |============================
+*/
+
+.main-hero {
   background-color: var(--main-brandcolor);
 }
 
@@ -94,6 +165,12 @@ body {
   background: var(--hover-color);
 }
 
+/**
+  |============================
+  | Benefits section
+  |============================
+*/
+
 .list .advantages-title {
   font-weight: 500;
   font-size: 20px;
@@ -108,6 +185,12 @@ body {
   letter-spacing: 0.02em;
 }
 
+/**
+  |============================
+  | Examples section
+  |============================
+*/
+
 .second-title {
   font-weight: 700;
   font-size: 36px;
@@ -117,6 +200,12 @@ body {
   text-transform: capitalize;
   color: var(--main-brandcolor);
 }
+
+/**
+  |============================
+  | About-team section
+  |============================
+*/
 
 .about-team {
   background-color: var(--main-backgroundcolor);
@@ -152,6 +241,12 @@ body {
   letter-spacing: 0.02em;
 }
 
+/**
+  |============================
+  | Footer
+  |============================
+*/
+
 .footer-area {
   background-color: var(--main-brandcolor);
 }
@@ -162,6 +257,16 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-backgroundcolor);
 }
+
+.logo-studio-footer {
+  color: var(--main-backgroundcolor);
+}
+
+/**
+  |============================
+  | Gallery portfolio
+  |============================
+*/
 
 .list .button-item {
   font-family: "Roboto", sans-serif;
