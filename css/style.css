@@ -73,6 +73,10 @@ body {
   margin-right: 76px;
 }
 
+.logo-studio {
+  color: var(--main-brandcolor);
+}
+
 .header {
   background-color: var(--main-white);
   border-bottom: 1px solid var(--header-border-bottom);
@@ -93,10 +97,6 @@ body {
   gap: 40px;
   margin-left: 76px;
   width: 261px;
-}
-
-.logo-studio {
-  color: var(--main-brandcolor);
 }
 
 .list .nav-link {
